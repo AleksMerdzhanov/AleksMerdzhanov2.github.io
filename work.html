@@ -2,59 +2,56 @@
 <html lang="en">
 
 <head>
-    <!-- Koppeling naar de externe CSS voor stijlen -->
+    <!-- Externe CSS en tekencodering -->
     <link rel="stylesheet" href="portfolio.css"> 
-    <!-- Tekencodering voor de pagina -->
     <meta charset="UTF-8">
-    <!-- Zorgt voor een responsief ontwerp op verschillende apparaten -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <!-- Koppeling naar Font Awesome voor iconen -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome voor iconen -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Document</title> <!-- Titel van de pagina die in de tab wordt weergegeven -->
+    <title>Document</title>
 </head>
 
 <body>
-    <!-- Container voor de inhoud van de pagina -->
+    <!-- Pagina container -->
     <div class="conteiner">
         <!-- Navigatiebalk -->
         <nav class="navbar">
-            <div class="navbar-brand"><a href="/"></a></div> <!-- Merklogo link (leeg voor nu) -->
-            <div class="navbar-menu"> <!-- Menu sectie -->
-                <ul class="menu" id="myLinks"> <!-- Ongeordende lijst van navigatielinks -->
-                    <li><a class="link" href="index.html">Home</a></li> <!-- Link naar Home -->
-                    <li><a href="AboutMe.html">About me</a></li> <!-- Link naar About Me -->
-                    <li><a href="work.html">Work</a></li> <!-- Link naar Work -->
-                    <li><a href="contact.html">Contact</a></li> <!-- Link naar Contact -->
+            <div class="navbar-brand"><a href="/"></a></div>
+            <div class="navbar-menu">
+                <ul class="menu" id="myLinks">
+                    <li><a class="link" href="index.html">Home</a></li>
+                    <li><a href="AboutMe.html">About me</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
-            <!-- Hamburger menu icoon voor kleinere schermen -->
+            <!-- Mobiel hamburgermenu -->
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i> <!-- FontAwesome hamburgermenu icoon -->
+                <i class="fa fa-bars"></i>
             </a>
         </nav>
     </div>
 
     <!-- Project sectie -->
     <div class="project">
-        <h1>My projects</h1> <!-- Titel voor de projectsectie -->
+        <h1>My projects</h1>
     </div>
 
-    <!-- Werksectie met projectblokken -->
+    <!-- Werksectie met projecten -->
     <div class="work">
-        <!-- Projectblok 1 -->
+        <!-- Project 1 -->
         <div class="block">
-            <img src="imgs/Pinkgoose.png" alt="Pinkgoose"> <!-- Afbeelding van het project -->
-            <p>PinkGoose</p> <!-- Beschrijving van het project -->
+            <img src="imgs/Pinkgoose.png" alt="Pinkgoose">
+            <p>PinkGoose</p>
         </div>
 
-        <!-- Projectblok 2 -->
+        <!-- Project 2 -->
         <div class="block">
-            <img src="imgs/Lingo.png" alt="Lingo"> <!-- Afbeelding van het project -->
-            <p>Lingo</p> <!-- Beschrijving van het project -->
+            <img src="imgs/Lingo.png" alt="Lingo">
+            <p>Lingo</p>
         </div>
     </div>
 
-    <!-- Verwijzing naar een extern JavaScript-bestand voor interactieve functionaliteit -->
     <script src="script.js"></script>
 </body>
 

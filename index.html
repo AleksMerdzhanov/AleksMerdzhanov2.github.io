@@ -2,47 +2,49 @@
 <html lang="en">
 
 <head>
-    <!-- Meta informatie voor de pagina -->
-    <meta charset="UTF-8"> <!-- Tekencodering voor de pagina -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Zorgt voor een responsief ontwerp op verschillende apparaten -->
-    <title>Aleks Portfolio</title> <!-- Titel van de pagina die in de tab wordt weergegeven -->
-    <link rel="stylesheet" href="portfolio.css"> <!-- Koppeling naar de externe CSS voor stijlen -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Koppeling naar Font Awesome voor iconen -->
+    <!-- Basisinformatie over de pagina -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aleks Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <div class="conteiner"> <!-- Container voor de inhoud van de pagina -->
-        <nav class="navbar"> <!-- Navigatiebalk -->
-            <div class="navbar-brand"><a href="/"></a></div> <!-- Merklogo link (leeg voor nu) -->
-            <div class="navbar-menu"> <!-- Menu sectie -->
-                <ul class="menu" id="myLinks"> <!-- Ongeordende lijst van navigatielinks -->
-                    <li><a class="link" href="index.html">Home</a></li> <!-- Link naar Home -->
-                    <li><a href="AboutMe.html">About me</a></li> <!-- Link naar About Me -->
-                    <li><a href="work.html">Work</a></li> <!-- Link naar Work -->
-                    <li><a href="contact.html">Contact</a></li> <!-- Link naar Contact -->
+    <div class="conteiner">
+        <!-- Navigatiebalk -->
+        <nav class="navbar">
+            <div class="navbar-brand"><a href="/"></a></div>
+            <div class="navbar-menu">
+                <ul class="menu" id="myLinks">
+                    <li><a class="link" href="index.html">Home</a></li>
+                    <li><a href="AboutMe.html">About me</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
-            <!-- Hamburger menu icoon voor kleinere schermen -->
+            <!-- Hamburger menu voor mobiele weergave -->
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i> <!-- FontAwesome hamburgermenu icoon -->
+                <i class="fa fa-bars"></i>
             </a>
         </nav>
     </div>
 
-    <!-- Home sectie -->
+    <!-- Home-sectie -->
     <div class="home">
-        <div class="info-section"> <!-- Informatie-sectie -->
-            <h1>Hi, I am <br>Aleks Remziev</h1> <!-- Naam en verwelkoming -->
-            <h3>Software Developer Student</h3> <!-- Beroepstitel -->
-            <p>I am passionate about learning Java and HTML coding. Currently, <br> I am a first-year Software Development student at ROC Nijmegen, eager to expand my skills and knowledge in the field.</p> <!-- Korte beschrijving van jezelf -->
-            <a href="https://github.com/AleksMerdzhanov"><img src="imgs/github.png" alt="github logo"></a> <!-- Link naar GitHub-profiel -->
+        <div class="info-section">
+            <h1>Hi, I am <br>Aleks Remziev</h1>
+            <h3>Software Developer Student</h3>
+            <p>I am passionate about learning Java and HTML coding. Currently, <br> I am a first-year Software Development student at ROC Nijmegen, eager to expand my skills and knowledge in the field.</p>
+            <!-- Link naar GitHub -->
+            <a href="https://github.com/AleksMerdzhanov"><img src="imgs/github.png" alt="github logo"></a>
         </div>
-        <div class="image-section"> <!-- Afbeelding-sectie -->
-            <img src="imgs/aleks2.png" alt="Foto van mij"> <!-- Foto van jezelf -->
+        <div class="image-section">
+            <img src="imgs/aleks2.png" alt="Foto van mij">
         </div>
     </div>
 
-    <script src="script.js"></script> <!-- Verwijzing naar een externe JavaScript-bestand voor interactieve functionaliteit -->
+    <script src="script.js"></script> <!-- JavaScript voor interactieve functies -->
 </body>
 
 </html>
