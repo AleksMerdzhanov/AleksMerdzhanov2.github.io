@@ -1,0 +1,408 @@
+/* Algemene Body */
+body {
+    font-family: 'Arial', sans-serif;
+    /* Standaard font voor body tekst */
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    /* Standaard tekstgrootte in px */
+}
+
+.space {
+    height: 50px;
+}
+
+/* Navbar */
+.navbar {
+    font-family: 'Roboto', sans-serif;
+    /* Strakker font voor navigatie */
+    align-items: center;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1px;
+    padding: 16px;
+    /* Padding in px */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.conteiner {
+    margin: auto;
+    max-width: 1180px;
+    padding: 14px;
+    /* Padding in px */
+}
+
+
+/* Navbar Menu */
+.navbar .menu,
+.navbar .navbar-menu {
+    align-items: center;
+    display: flex;
+}
+
+.navbar .menu {
+    list-style: none;
+    margin-right: 16px;
+    /* Margin in px */
+}
+
+.navbar .menu .link {
+    color: #9775fa;
+    font-size: 18px;
+    /* Vergroot de links in px voor betere zichtbaarheid */
+    font-weight: 600;
+}
+
+.navbar .menu a {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar .menu a.active {
+    color: #9775fa;
+}
+
+
+.navbar-menu .menu {
+    margin-right: 16px;
+    /* Margin in px */
+    gap: 10px;
+}
+
+.navbar-menu .menu a:hover {
+    color: #9775fa;
+}
+
+.icons {
+    display: flex;
+}
+
+
+.aleks {
+    display: flex;
+    height: 300px;
+    position: absolute;
+    right: 100px;
+    top: 350px;
+}
+
+.work {
+    display: flex;
+    justify-content: space-evenly;
+}
+.heading{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    margin-bottom: 48px;
+    gap: 30px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* .bars styling */
+.lines {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    /* Gap tussen de bar elementen in px */
+}
+
+.line-paars {
+    width: 139px;
+    /* Brete van de bar in px */
+    height: 28px;
+    /* Hoogte van de bar in px */
+    background-color: #9775fa;
+}
+
+.line-grijs {
+    width: 219px;
+    /* Brete van de tweede bar in px */
+    height: 28px;
+    /* Hoogte van de tweede bar in px */
+    background-color: #343334;
+}
+
+/* Home Section */
+.home {
+    align-items: center;
+    display: flex;
+    height: 75vh;
+    /* Hoogte van de home sectie in vh */
+    justify-content: space-around;
+}
+
+.home .info-section {
+    display: flex;
+    flex-basis: 544px;
+    /* Breedte van de info-sectie in px */
+    flex-direction: column;
+    gap: 21px;
+    /* Gap tussen de elementen in px */
+}
+
+/* Styling voor de image-section in de .home container */
+/* Stelt een vaste hoogte en breedte in van 400px */
+.home .image-section {
+    border: 2px solid; /* Voegt een rand van 2px toe aan de sectie */
+    height: 400px;
+    width: 400px;/* Stelt een vaste hoogte en breedte in van 400px */
+}
+
+.home .image-section img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* About Me Section */
+.about-me-section {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    /* Tekstgrootte in px */
+    line-height: 1.6;
+    margin: 20px auto;
+    /* Margin in px */
+    max-width: 900px;
+    /* Max breedte in px */
+    padding: 15px;
+    /* Padding in px */
+}
+
+.about-me-section p {
+    color: white;
+    font-weight: 400;
+    text-align: justify;
+}
+
+
+.project {
+    display: flex;
+    position: relative;
+    top: -50px;
+    left: 50px;
+}
+
+.tekst {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* Navbar logo styling */
+.navbar-brand a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+/* Hamburger menu styling aan de rechterkant */
+.icon {
+    display: none;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+}
+
+
+
+.send {
+    width: 900px;
+    height: 68px;
+    background-color: #2A3744;
+    border-radius: 16px;
+    position: relative;
+    top: -20px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column; /* Plaats de items in een kolom */
+    align-items: center; /* Centreer de items horizontaal */
+    width: 385px;
+    height: auto; /* Laat de hoogte automatisch worden gebaseerd op de inhoud */
+    background-color: #1d1f2f;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    gap: 10px; /* Voeg ruimte tussen de afbeelding en tekst toe */
+}
+
+.block img {
+    width: 100%; /* Zorg dat de afbeelding de volledige breedte van het blok vult */
+    height: auto; /* Houd de aspectratio in stand */
+    object-fit: cover; /* Bedek de ruimte zonder de afbeelding te vervormen */
+    border-radius: 10px;
+}
+
+.block p {
+    color: white;
+    font-weight: 600;
+    font-size: 18px; /* Maak de tekst beter leesbaar */
+    margin: 0; /* Verwijder extra marges */
+    text-align: center;
+}
+
+.contact-info {
+    background-color: rgba(61, 76, 91, 1);
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 16px;
+    color: white;
+    text-align: center;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-item {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.contact-label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.contact-link {
+    color: #9775fa;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+
+/* Specifieke styling voor kleinere schermen */
+@media only screen and (max-width: 400px) {
+    .home {
+        flex-direction: column; /* Zet de items onder elkaar */
+        height: auto; /* Maak de hoogte flexibel */
+        justify-content: center; /* Centreer de inhoud verticaal */
+        padding: 10px; /* Padding rondom de sectie */
+    }
+
+    .home .image-section {
+        order: -1; /* Plaats de afbeelding bovenaan */
+        width: 100%; /* Volledige breedte van het scherm */
+        height: 40vh; /* Verklein de hoogte van de afbeelding */
+        margin-bottom: 15px; /* Ruimte tussen afbeelding en info */
+    }
+
+    .home .info-section {
+        flex-basis: 100%; /* Maak de info-sectie 100% breed */
+        gap: 15px; /* Verklein de ruimte tussen elementen */
+    }
+
+    
+    /* Het hamburger-menu wordt zichtbaar */
+    .icon {
+        display: block;
+    }
+    /* Heading Section */
+    .heading {
+        flex-direction: column;
+        gap: 10px;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    /* Zorg ervoor dat de About Me sectie bovenaan komt te staan */
+    .container {
+        flex-direction: column-reverse; /* Dit zorgt ervoor dat de About Me sectie bovenaan komt */
+    }
+
+    .about-me-section {
+        order: -1; /* Zet de About Me sectie bovenaan */
+    }
+
+    .home {
+        order: 1; /* Zet de home sectie onder de About Me sectie */
+    }
+
+    .icons {
+        order: 2; /* Zet de iconen sectie als laatste */
+    }
+    /* Menu verborgen bij standaard weergave */
+    #myLinks {
+        display: none;
+        position: fixed;
+        top: 70px;
+        left: 0;
+        background-color: #333;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        gap: 10px;
+        flex-direction: column;
+        z-index: 1000;
+    }
+
+    #myLinks a {
+        color: white;
+        font-weight: 700;
+        padding: 14px 20px;
+        text-decoration: none;
+        display: block;
+        transition: color 0.3s;
+    }
+
+    #myLinks a:hover {
+        color: #9775fa;
+    }
+
+    /* Als het menu zichtbaar is, dit aanpassen */
+    #myLinks.show {
+        display: block;
+    }
+
+    /* De navbar wordt kleiner bij gebruik van hamburger */
+    .navbar {
+        padding: 10px 20px;
+    }
+
+    .aleks {
+        display: none;
+    }
+    
+    .contact {
+        width: 100%; /* Laat de sectie de volledige breedte van het scherm nemen */
+        max-width: 100%; /* Maximaliseer de sectie op kleine schermen */
+        padding: 10px; /* Nog minder padding voor kleine schermen */
+    }
+
+    .work {
+        flex-direction: column;
+        align-items: center; /* Zorg dat de items gecentreerd worden */
+        gap: 20px; /* Voeg ruimte toe tussen de items */
+    }
+
+    .block {
+        width: 80%; /* Maak de blokken breder zodat ze beter passen in een kolom */
+    }
+
+    .project h1 {
+        text-align: center; /* Centreer de koptekst */
+    }
+    
+  
+}

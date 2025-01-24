@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Koppeling naar de externe CSS voor stijlen -->
+    <link rel="stylesheet" href="portfolio.css"> 
+    <!-- Tekencodering voor de pagina -->
+    <meta charset="UTF-8">
+    <!-- Zorgt voor een responsief ontwerp op verschillende apparaten -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Portfolio</title> <!-- Titel van de pagina die in de tab wordt weergegeven -->
+    <!-- Koppeling naar Font Awesome voor iconen -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+
+<body>
+    <!-- Container voor de inhoud van de pagina -->
+    <div class="conteiner"> 
+        <nav class="navbar"> <!-- Navigatiebalk -->
+            <div class="navbar-brand"><a href="/"></a></div> <!-- Merklogo link (leeg voor nu) -->
+            <div class="navbar-menu"> <!-- Menu sectie -->
+                <ul class="menu" id="myLinks"> <!-- Ongeordende lijst van navigatielinks -->
+                    <li><a class="link" href="index.html">Home</a></li> <!-- Link naar Home -->
+                    <li><a href="AboutMe.html">About me</a></li> <!-- Link naar About Me -->
+                    <li><a href="work.html">Work</a></li> <!-- Link naar Work -->
+                    <li><a href="contact.html">Contact</a></li> <!-- Link naar Contact -->
+                </ul>
+            </div>
+            <!-- Hamburger menu icoon voor kleinere schermen -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i> <!-- FontAwesome hamburgermenu icoon -->
+            </a>
+        </nav>
+    </div>
+
+    <!-- Heading sectie voor de About Me sectie -->
+    <div class="heading"> 
+        <div class="lines"> <!-- Sectie voor de lijnen in de heading -->
+            <div class="line-paars"></div> <!-- Paarse lijn -->
+            <div class="line-grijs"></div> <!-- Grijze lijn -->
+        </div>
+        <div class="About-me"></div> <!-- Lege div voor styling (mogelijk voor toekomstige toevoegingen) -->
+        <h1>About Me</h1> <!-- Titel voor About Me sectie -->
+    </div>
+
+    <!-- Eerste inhoudelijke sectie over jezelf -->
+    <div>
+        <p>
+            My name is Aleks Remziev, and I am a student at Roc Nijmegen, pursuing a degree in Software Development. I
+            am an aspiring Software Developer. <br>My hobbies include playing football: I train twice a week and play
+            matches twice a week. <br> My goal is to learn everything necessary about software development and graduate with
+            my diploma.
+        </p>
+    </div>
+
+    <!-- Tweede sectie over vaardigheden -->
+    <section>
+        <div class="space"></div> <!-- Ruimte tussen secties -->
+        <h2>Stuff I Know:</h2> <!-- Titel voor vaardigheden -->
+        <div class="icons"> <!-- Sectie voor de iconen van technologieën die je kent -->
+            <img src="imgs/html.png" alt="HTML logo"> <!-- HTML logo -->
+            <img src="imgs/css.png" alt="CSS logo"> <!-- CSS logo -->
+            <img src="imgs/javaScript.png" alt="JavaScript logo"> <!-- JavaScript logo -->
+        </div>
+    </section>
+
+    <!-- Afbeelding van jezelf -->
+    <div class="aleks">
+        <img src="imgs/thegoat.jpg" alt=""> <!-- Foto van jezelf -->
+    </div>
+
+    <!-- Verwijzing naar een extern JavaScript-bestand voor interactieve functionaliteit -->
+    <script src="script.js"></script>
+</body>
+
+</html>
